@@ -11,7 +11,47 @@
 		18B25B732927DE6200C0306B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B25B722927DE6200C0306B /* ContentView.swift */; };
 		18B25B752927DE6400C0306B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B25B742927DE6400C0306B /* Assets.xcassets */; };
 		18B25B782927DE6400C0306B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B25B772927DE6400C0306B /* Preview Assets.xcassets */; };
+		18B25B91292B892E00C0306B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B25B90292B892E00C0306B /* WidgetKit.framework */; };
+		18B25B93292B892E00C0306B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B25B92292B892E00C0306B /* SwiftUI.framework */; };
+		18B25B99292B893000C0306B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B25B98292B893000C0306B /* Assets.xcassets */; };
+		18B25B9B292B893000C0306B /* MonthWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 18B25B97292B892F00C0306B /* MonthWidget.intentdefinition */; };
+		18B25B9C292B893000C0306B /* MonthWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 18B25B97292B892F00C0306B /* MonthWidget.intentdefinition */; };
+		18B25B9F292B893000C0306B /* MonthWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 18B25B8E292B892E00C0306B /* MonthWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		18B25BA4292B897300C0306B /* MonthConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B25B86292B870B00C0306B /* MonthConfig.swift */; };
+		18B25BA5292B897B00C0306B /* MonthWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B25B84292B86EC00C0306B /* MonthWidgetEntryView.swift */; };
+		18B25BA6292B898600C0306B /* DayEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B25B82292B865F00C0306B /* DayEntry.swift */; };
+		18B25BA7292B898E00C0306B /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B25B88292B877600C0306B /* Date+Ext.swift */; };
+		18B25BA8292B899600C0306B /* Colors+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B25B7E292B85C200C0306B /* Colors+Ext.swift */; };
+		18B25BA9292B89AF00C0306B /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B25B80292B85F900C0306B /* Provider.swift */; };
+		18B25BAE292B980600C0306B /* BelarusianHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B25BAC292B979900C0306B /* BelarusianHelper.swift */; };
+		18B25BAF292B984B00C0306B /* BelarusianHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B25BAC292B979900C0306B /* BelarusianHelper.swift */; };
+		18B25BB0292B991500C0306B /* Colors+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B25B7E292B85C200C0306B /* Colors+Ext.swift */; };
+		18B25BB1292B998900C0306B /* MonthConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B25B86292B870B00C0306B /* MonthConfig.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18B25B9D292B893000C0306B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B25B652927DE6200C0306B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B25B8D292B892E00C0306B;
+			remoteInfo = MonthWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18B25BA3292B893000C0306B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				18B25B9F292B893000C0306B /* MonthWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		18B25B6D2927DE6200C0306B /* WidgetsTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetsTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +59,19 @@
 		18B25B722927DE6200C0306B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18B25B742927DE6400C0306B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18B25B772927DE6400C0306B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18B25B7E292B85C200C0306B /* Colors+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Ext.swift"; sourceTree = "<group>"; };
+		18B25B80292B85F900C0306B /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		18B25B82292B865F00C0306B /* DayEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayEntry.swift; sourceTree = "<group>"; };
+		18B25B84292B86EC00C0306B /* MonthWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthWidgetEntryView.swift; sourceTree = "<group>"; };
+		18B25B86292B870B00C0306B /* MonthConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthConfig.swift; sourceTree = "<group>"; };
+		18B25B88292B877600C0306B /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		18B25B8E292B892E00C0306B /* MonthWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MonthWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B25B90292B892E00C0306B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		18B25B92292B892E00C0306B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		18B25B97292B892F00C0306B /* MonthWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MonthWidget.intentdefinition; sourceTree = "<group>"; };
+		18B25B98292B893000C0306B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B25B9A292B893000C0306B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B25BAC292B979900C0306B /* BelarusianHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelarusianHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +82,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18B25B8B292B892E00C0306B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B25B93292B892E00C0306B /* SwiftUI.framework in Frameworks */,
+				18B25B91292B892E00C0306B /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				18B25B6F2927DE6200C0306B /* WidgetsTestProject */,
+				18B25B94292B892F00C0306B /* MonthWidget */,
+				18B25B8F292B892E00C0306B /* Frameworks */,
 				18B25B6E2927DE6200C0306B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				18B25B6D2927DE6200C0306B /* WidgetsTestProject.app */,
+				18B25B8E292B892E00C0306B /* MonthWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +132,32 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		18B25B8F292B892E00C0306B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18B25B90292B892E00C0306B /* WidgetKit.framework */,
+				18B25B92292B892E00C0306B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18B25B94292B892F00C0306B /* MonthWidget */ = {
+			isa = PBXGroup;
+			children = (
+				18B25B80292B85F900C0306B /* Provider.swift */,
+				18B25B7E292B85C200C0306B /* Colors+Ext.swift */,
+				18B25B88292B877600C0306B /* Date+Ext.swift */,
+				18B25B82292B865F00C0306B /* DayEntry.swift */,
+				18B25B84292B86EC00C0306B /* MonthWidgetEntryView.swift */,
+				18B25B86292B870B00C0306B /* MonthConfig.swift */,
+				18B25B97292B892F00C0306B /* MonthWidget.intentdefinition */,
+				18B25B98292B893000C0306B /* Assets.xcassets */,
+				18B25B9A292B893000C0306B /* Info.plist */,
+				18B25BAC292B979900C0306B /* BelarusianHelper.swift */,
+			);
+			path = MonthWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +168,34 @@
 				18B25B692927DE6200C0306B /* Sources */,
 				18B25B6A2927DE6200C0306B /* Frameworks */,
 				18B25B6B2927DE6200C0306B /* Resources */,
+				18B25BA3292B893000C0306B /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				18B25B9E292B893000C0306B /* PBXTargetDependency */,
 			);
 			name = WidgetsTestProject;
 			productName = WidgetsTestProject;
 			productReference = 18B25B6D2927DE6200C0306B /* WidgetsTestProject.app */;
 			productType = "com.apple.product-type.application";
+		};
+		18B25B8D292B892E00C0306B /* MonthWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B25BA0292B893000C0306B /* Build configuration list for PBXNativeTarget "MonthWidgetExtension" */;
+			buildPhases = (
+				18B25B8A292B892E00C0306B /* Sources */,
+				18B25B8B292B892E00C0306B /* Frameworks */,
+				18B25B8C292B892E00C0306B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonthWidgetExtension;
+			productName = MonthWidgetExtension;
+			productReference = 18B25B8E292B892E00C0306B /* MonthWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +208,9 @@
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					18B25B6C2927DE6200C0306B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					18B25B8D292B892E00C0306B = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
@@ -116,6 +229,7 @@
 			projectRoot = "";
 			targets = (
 				18B25B6C2927DE6200C0306B /* WidgetsTestProject */,
+				18B25B8D292B892E00C0306B /* MonthWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +244,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18B25B8C292B892E00C0306B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B25B99292B893000C0306B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +259,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B25BB0292B991500C0306B /* Colors+Ext.swift in Sources */,
 				18B25B732927DE6200C0306B /* ContentView.swift in Sources */,
 				18B25B712927DE6200C0306B /* WidgetsTestProjectApp.swift in Sources */,
+				18B25B9C292B893000C0306B /* MonthWidget.intentdefinition in Sources */,
+				18B25BB1292B998900C0306B /* MonthConfig.swift in Sources */,
+				18B25BAF292B984B00C0306B /* BelarusianHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B25B8A292B892E00C0306B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B25BA5292B897B00C0306B /* MonthWidgetEntryView.swift in Sources */,
+				18B25BA9292B89AF00C0306B /* Provider.swift in Sources */,
+				18B25BA4292B897300C0306B /* MonthConfig.swift in Sources */,
+				18B25BA8292B899600C0306B /* Colors+Ext.swift in Sources */,
+				18B25BA7292B898E00C0306B /* Date+Ext.swift in Sources */,
+				18B25B9B292B893000C0306B /* MonthWidget.intentdefinition in Sources */,
+				18B25BA6292B898600C0306B /* DayEntry.swift in Sources */,
+				18B25BAE292B980600C0306B /* BelarusianHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18B25B9E292B893000C0306B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B25B8D292B892E00C0306B /* MonthWidgetExtension */;
+			targetProxy = 18B25B9D292B893000C0306B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		18B25B792927DE6400C0306B /* Debug */ = {
@@ -262,6 +411,7 @@
 		18B25B7C2927DE6400C0306B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +441,7 @@
 		18B25B7D2927DE6400C0306B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,6 +468,60 @@
 			};
 			name = Release;
 		};
+		18B25BA1292B893000C0306B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84DXJF9WZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonthWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MonthWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = huracheuskaya.WidgetsTestProject.MonthWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18B25BA2292B893000C0306B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84DXJF9WZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonthWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MonthWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = huracheuskaya.WidgetsTestProject.MonthWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +539,15 @@
 			buildConfigurations = (
 				18B25B7C2927DE6400C0306B /* Debug */,
 				18B25B7D2927DE6400C0306B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B25BA0292B893000C0306B /* Build configuration list for PBXNativeTarget "MonthWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B25BA1292B893000C0306B /* Debug */,
+				18B25BA2292B893000C0306B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

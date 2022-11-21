@@ -10,10 +10,19 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Ты маленькая тупіца")
+                .font(.title)
+                .fontWeight(.bold)
+                .foregroundColor(Color.palePink)
+                .padding()
+            
+            ForEach(1...12, id: \.self) { monthInt in
+                HStack {
+                    Text("\(monthInt)")
+                    Text(BelarusianHelper.monthName(monthInt))
+                        .fontWeight(.bold)
+                }
+            }
         }
         .padding()
     }
